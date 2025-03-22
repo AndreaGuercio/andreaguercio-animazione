@@ -1,0 +1,169 @@
+body {
+    background-color: white 
+
+    ;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+img{max-width: 100%;
+    width: 100%;
+    margin-top: 60px;
+
+display: block;}
+
+
+header{max-width: 1440px;
+    
+background-color: #7067CF
+ ;
+margin: 100px auto;
+justify-content: space-between;
+display: flex;
+padding: 50px;
+margin-top: 0%;
+
+}
+
+
+header p{margin: 0
+    ;display: flex
+;
+
+font-weight: bold;
+text-transform:uppercase ;
+display: flex;
+justify-content: space-between;}
+    
+
+header nav ul{margin: 0
+        ;
+    padding: 0
+    ;
+list-style: none;
+display: flex;
+gap: 16px
+;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #CBF3D2
+;
+}
+header nav a{
+    color: #CBF3D2;
+}
+header nav a:hover{color: #000;
+    text-decoration: underline;
+}
+section.info {background-color: #333;
+padding: 64px 16px;
+}
+section.info h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    color:#CBF3D2 ;
+    margin-top: 67px;
+background-color: #7067CF;
+padding: 64px;
+font-size: 15px;
+}
+div{
+    color: #7067CF;
+    margin-bottom: 64;
+}
+
+.card{
+    text-align: center;
+    
+}
+
+.articolo {
+    text-align: center    ;
+    color:#7067CF ;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-weight: bold
+
+}
+
+.pollo{text-align: left;
+    margin-top: 60px;
+    margin-left: 20%;
+    line-height: 150%;
+   display: flex;
+   border-left: #7067CF;  
+   padding: 30px;
+}
+
+.pollo div{font-weight: bolder;}
+
+.flow{
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20%;
+    line-height: 150%;
+    display: flex;
+    
+}
+
+.flow div {font-weight: bolder;}
+
+.sauvages{
+    text-align: left;
+    margin-top: 60px;
+
+
+    margin-left: 20%;
+    line-height: 150%
+    ;
+    display: flex;
+
+}
+
+.sauvages div {
+    font-weight: bolder;
+}
+
+.inv{
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20%;
+    line-height: 150%
+    ;
+    display: flex;
+
+}
+.inv div {
+    font-weight: bolder;
+
+}
+
+@media screen {
+    header { font-size: small;
+
+    }
+    .pollo {
+        margin-right: 10%;
+    }
+    .flow {
+        margin-right: 10%;
+    }
+    .sauvages {
+        margin-right: 10%;
+    
+    }
+    .inv {
+        margin-right: 10%;
+    }
+}
+    
+
+
